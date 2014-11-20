@@ -13,7 +13,16 @@ module.exports = function (grunt) {
 
       exec('luac ' + filepath, function(err, stdout, stderr) {
         if(null !== err) {
-          grunt.log.error(err);
+          grunt.log.error('\n');
+          grunt.log.error('Error in ' + filepath);
+
+          if(stderr || stdout) {
+            var output_split = (stderr + '\n' + stdout).trim().split('\n');
+
+            for(var i = 0; i < output_split.length; i++) {
+              grunt.log.error(output_split[i] ? ' - ' + output_split[i] : '');
+            }
+          }
         }
 
         if(++runs === files.length) {
