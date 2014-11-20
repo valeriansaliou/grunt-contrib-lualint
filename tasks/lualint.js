@@ -11,7 +11,7 @@ module.exports = function (grunt) {
     files.forEach(function(filepath) {
       grunt.verbose.writeln('Linting ' + filepath);
 
-      exec('luac ' + filepath, function(err, stdout, stderr) {
+      exec('luac -p ' + filepath, function(err, stdout, stderr) {
         if(null !== err) {
           grunt.log.error('\n');
           grunt.log.error('Error in ' + filepath);
