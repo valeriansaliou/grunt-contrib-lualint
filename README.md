@@ -20,8 +20,7 @@ grunt.loadNpmTasks('grunt-contrib-lualint');
 
 ```javascript
 grunt.initConfig({
-  bashlint: {
-    options: { force: true },
+  lualint: {
     src: ['**/*.lua']
   }
 });
