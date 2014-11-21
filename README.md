@@ -2,6 +2,10 @@
 
 Grunt task for validating Lua code.
 
+
+[![build status](https://ci.hakuma.holdings/projects/71/status.png?ref=master)](https://ci.hakuma.holdings/projects/71?ref=master)
+
+
 ## Getting started
 
 You need to have the `luac` command available on your system.
@@ -38,4 +42,4 @@ Set `force` to true to report errors but not fail the task.
 
 ## License
 
-MIT
+This package is published under the MIT license.
