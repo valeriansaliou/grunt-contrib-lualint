@@ -5,7 +5,7 @@
 Grunt task for validating Lua code.
 
 
-[![build status](https://ci.hakuma.holdings/projects/71/status.png?ref=master)](https://ci.hakuma.holdings/projects/71?ref=master)
+[![Build Status](https://semaphoreci.com/api/v1/projects/b0580a5f-c120-4481-a1dd-03dc56add6fa/376003/shields_badge.svg)](https://semaphoreci.com/valeriansaliou/grunt-contrib-lualint)
 
 
 ## Getting started
