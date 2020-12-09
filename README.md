@@ -1,7 +1,5 @@
 # grunt-contrib-lualint
 
-[![Build Status](https://travis-ci.org/valeriansaliou/grunt-contrib-lualint.svg?branch=master)](https://travis-ci.org/valeriansaliou/grunt-contrib-lualint) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/valeriansaliou/grunt-contrib-lualint?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Grunt task for validating Lua code.
 
 ## Getting started
